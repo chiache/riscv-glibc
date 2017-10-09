@@ -43,8 +43,6 @@ typedef double fpreg_t;
 #define REG_A0 10
 #define REG_NARGS 8
 
-typedef unsigned long greg_t;
-
 /* Container for all general registers.  */
 typedef greg_t gregset_t[NGREG];
 
